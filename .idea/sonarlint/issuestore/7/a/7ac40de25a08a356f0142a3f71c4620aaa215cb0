@@ -1,0 +1,25 @@
+
+_
+java:S1128"BRemove this unused import 'com.issi.constants.FrameWorkConstants'.(τ‡Ψ8‡Β ’σ.
+d
+java:S1128"GRemove this unused import 'org.openqa.selenium.remote.RemoteWebDriver'.(ϊ£Ϊ—8εφΐ”τ.
+c
+java:S1128"FRemove this unused import 'io.github.bonigarcia.wdm.WebDriverManager'.(°Λυ‰8εφΐ”τ.
+`
+java:S1128"DRemove this unused import 'org.openqa.selenium.chrome.ChromeDriver'.(†Θ8εφΐ”τ.
+h
+java:S1128"KRemove this unused import 'org.openqa.selenium.remote.DesiredCapabilities'.(¦ς©8εφΐ”τ.
+h
+java:S1128"FRemove this unused import 'org.openqa.selenium.firefox.FirefoxDriver'.(Ϊª ÿÿÿÿÿ8εφΐ”τ.
+Z
+java:S1128"8Remove this unused import 'com.issi.enums.CategoryType'.(άν„£ωÿÿÿÿ8Ρ τ.
+e
+java:S1128"CRemove this unused import 'org.openqa.selenium.remote.BrowserType'.(ΞΤ€ωÿÿÿÿ8εφΐ”τ.
+K
+java:S1128")Remove this unused import 'java.net.URL'.(ρμΑ„όÿÿÿÿ8εφΐ”τ.
+g
+java:S1128"ERemove this unused import 'org.openqa.selenium.chrome.ChromeOptions'.(ÿΎΟσόÿÿÿÿ8εφΐ”τ.
+d
+java:S1128"GRemove this unused import 'org.openqa.selenium.firefox.FirefoxOptions'.(Ω•£8εφΐ”τ.
+a
+java:S1128"ERemove this unused import 'com.issi.annotations.FrameWorkAnnotation'.(Λ£ΨE8Ρ τ.

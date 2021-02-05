@@ -1,0 +1,74 @@
+        *** TestNg DataDriven HydbridFrameWork configured with extentReport and docker-selenium Grid  ***
+Feautures:
+    * Driver initialization using WebDriverManager
+    * ExtentReport configuration with error screenshot attachment
+    * Emailable Extent Report
+    * Test execution control though excel
+    * Docker-selenuium grid configuration.
+
+Plugins:
+    * CodeWith Me
+    * TestNg
+    * Sonarlint (optional)
+    * Batch Scripts support
+
+Create a maven project and updated pom.xml file with require dependencies.
+
+JavaDoc link
+file:///Users/rajasekhar/IdeaProjects/FrameWorkTemplet/JavaDocs/index.html
+
+This is an Advanced TestNG Hybrid Frame Work developed with the help of Maven with ExtentReport.
+
+In FrameWork structure
+* We have created 'Extent-test-output' folder as a destination, for all extent reports generated.
+* Under 'src/main/java' we have all the packages created that helps our test creation and execution.
+    > Under 'com.issi.annotations' package we have "FrameWorkAnnotation" class, where we have our custom
+      annotation that, helps to define required annotation elements to our test methods
+    > We have declared all constant values that we are using in this project and their corresponding methods
+      in "FrameWorkConstants" class under 'com.issi.constants' package.
+    > Under 'com.issi.driver' pack we "Driver" and "DriverManger" classes to handle driver (browser) tasks.
+    > Next we have created 'enum' package with constant values and to make use of these values as a selection option,
+      while working.
+    > Next we have 'exceptions' package , where we have created some custom exception handling methods
+    > We have created one 'factories' pack to have all wait types, that we perform on specific elements at one place.
+    > Next we have 'listeners' pack, that contains different listeners type.
+    > In 'pages' pack we are creating individual classes for pages that are present in our application.
+      and in this classes we are identifying the elements of that page and creating action methods for it.
+    > Under 'reports' pack we have the complete code that related to Extent Report generation and handling.
+    > And we have all utility classes under 'utils' package.
+* Under 'src/main/resources' we have extent report configuration file, that helps to customise our extent report.
+* In 'src/test/java' we have 'com.issi.test' pack, which contains all out test executables (classes)
+* Under 'src/test/resources' we have
+    > 'config folder' - with property file
+    > 'DriverExecutables' - It contains all 'Drivers' that are related to chrome,firefox & ie.
+    > 'TestData' - consists of Excel file.
+
+Docker Setup:
+Windows: download Docker from its official website based on your OS
+Note: for windows make sure that your operating system is up to date
+
+To Run your project using Docker please follow below steps
+{ in this frame work we have all set our coding }
+Step 1: under src/test/resources/config-> config.properties file , make sure to change
+        run mode as 'remote' (to run your tests in local machine you can use 'local')
+Step 2: open command prompt with your project location(where your docker compose yml file is present)
+        use command 'docker-compose up'
+
+NOTE:
+To view your test execution by using 'Zelenium' make sure to follow below steps
+open command prompt (you sould have docker installed)
+ # Pull docker-selenium
+    docker pull elgalu/selenium
+ # Pull Zalenium
+    docker pull dosel/zalenium
+
+To run Zelenium
+" docker run --rm -ti --name zalenium -p 4444:4444 -e PULL_SELENIUM_IMAGE=true -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/videos:/home/seluser/videos --privileged dosel/zalenium start "
+
+
+for your reference to know about zelenium please find below link
+https://opensource.zalando.com/zalenium/
+
+http://localhost:4444/grid/console - Here you can see your Selenium grid console
+http://localhost:4444/grid/admin/live -  Here you can see your test execution on remote machine
+http://localhost:4444/dashboard/ - Here you can see your test execution video recorded.

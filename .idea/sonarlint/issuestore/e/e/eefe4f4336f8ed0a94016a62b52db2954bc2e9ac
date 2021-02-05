@@ -1,0 +1,9 @@
+
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ς¶Θ8οϊςρτ.
+c
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ς¶Θ8£ςρτ.
+F
+java:S1481")Remove this unused "stop" local variable.(Π°8ΟΨρτ.
+U
+java:S1854"8Remove this useless assignment to local variable "stop".(Π°8ΟΨρτ.
