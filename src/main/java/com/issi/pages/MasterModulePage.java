@@ -4,15 +4,21 @@ import com.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
 public class MasterModulePage extends BasePage {
+    /**
+     * Elements identified for submodule client type of MasterModule
+     */
     private final By masterModuleBtn = By.xpath("//button[@name='btn-Master']");
     private final By clientTypeslink = By.xpath("//*[@id='menu-MasterBar']/div[3]/ul/a[1]/li");
-
     private final By addRecordbtn = By.xpath("//button[@title='Add Record']");
     private final By clientTypeText = By.xpath("//input[@name='nm_client_type']");
     private final By descriptionText = By.xpath("//textarea[@name='client_desc']");
     private final By savechangesbtn = By.id("id_btnsubmit");
     private final By closeBtn = By.xpath("//button/span[@aria-hidden='true']");
 
+    /**
+     *
+     * Actions methods of ClientType module elements
+     */
     public MasterModulePage clickOnMastermodulebtn(){
         clickOn(masterModuleBtn, WaitStrategy.CLICKABLE,"Master module button");
         return this;
@@ -45,4 +51,6 @@ public class MasterModulePage extends BasePage {
         clickOn(closeBtn,WaitStrategy.CLICKABLE,"close button");
         return this;
     }
+
+    
 }
