@@ -2,7 +2,9 @@ package com.issi.pages;
 
 import com.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
-
+/**
+ * Contains the elements identified of PSMS Login page and action methods created on it
+ */
 public final class PSMSLoginPage extends BasePage {
 
     private final By textboxUsername = By.id("id_uname");

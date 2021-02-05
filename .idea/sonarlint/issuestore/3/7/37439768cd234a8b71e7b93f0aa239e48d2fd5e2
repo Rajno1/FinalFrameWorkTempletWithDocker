@@ -1,11 +1,11 @@
 
+i
+java:S1192$"GDefine a constant instead of duplicating this literal "remote" 3 times.(şĞ©÷şÿÿÿÿ8 ‰êô.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8şĞñô.
 z
 java:S1192)"]Define a constant instead of duplicating this literal "http://localhost:4444/wd/hub" 3 times.(ğŸ®¡8 ‰êô.
 \
 java:S1128":Remove this unused import 'com.issi.reports.ExtentLogger'.(ì”èóøÿÿÿÿ8²øóô.
-i
-java:S1192$"GDefine a constant instead of duplicating this literal "remote" 3 times.(şĞ©÷şÿÿÿÿ8 ‰êô.
 \
 java:S1128":Remove this unused import 'com.issi.driver.DriverManager'.(Ÿ¢Ü©ùÿÿÿÿ8¿æáô.
-R
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8şĞñô.

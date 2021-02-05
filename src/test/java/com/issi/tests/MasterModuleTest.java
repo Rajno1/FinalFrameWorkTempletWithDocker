@@ -8,7 +8,9 @@ import com.issi.pages.PSMSHomePage;
 import org.testng.annotations.Test;
 
 import java.util.Map;
-
+/**
+ * Contains the tests related to MasterModule of PSMS application .
+ */
 public final class MasterModuleTest extends BaseTest{
     private MasterModuleTest() {
     }

@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import java.util.Map;
 
 /**
- * Contains the tests related to Orange HRM page. For more details,
+ * Contains the tests related to PSMS Login page.
  */
 public final class LoginPageTest extends BaseTest {
     /**
@@ -30,7 +30,6 @@ public final class LoginPageTest extends BaseTest {
      * Set the authors who have the created the test which will be logged to the reports
      * Set the category which this particular test case belongs to
      *
-     * @param data HashMap containing all the values of test data needed to run the tests
      */
     @Test
     @FrameWorkAnnotation(browser = {BrowserType.CHROME},author = {"Rajasekhar"},category = {CategoryType.FUNCTIONAL})

@@ -68,7 +68,6 @@ public final class Driver {
     /**
      * Terminates the browser instance. Sets the threadlocal to default value, i.e null.
      *
-     * @param browser browser value will be passed form {@link com.issi.tests.BaseTest}. Values can be chrome,firefox
      */
     public static void quiteDriver() {
         if (Objects.nonNull(DriverManager.getDriver())) {
